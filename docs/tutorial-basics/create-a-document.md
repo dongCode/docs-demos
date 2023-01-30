@@ -2,8 +2,10 @@
 sidebar_position: 2
 ---
 
-# Create a Document
+# 新建文档
 
+
+文档是页面的集合
 Documents are **groups of pages** connected through:
 
 - a **sidebar**
