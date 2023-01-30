@@ -2,11 +2,11 @@
 sidebar_position: 2
 ---
 
-# Translate your site
+# 国际化
 
 Let's translate `docs/intro.md` to French.
 
-## Configure i18n
+## 配置 i18n
 
 Modify `docusaurus.config.js` to add support for the `fr` locale:
 
@@ -19,7 +19,7 @@ module.exports = {
 };
 ```
 
-## Translate a doc
+## 翻译
 
 Copy the `docs/intro.md` file to the `i18n/fr` folder:
 
