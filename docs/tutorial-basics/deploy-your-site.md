@@ -2,7 +2,8 @@
 sidebar_position: 5
 ---
 
-# Deploy your site
+# 部署
+
 
 Docusaurus is a **static-site-generator** (also called **[Jamstack](https://jamstack.org/)**).
 
@@ -29,3 +30,5 @@ npm run serve
 The `build` folder is now served at [http://localhost:3000/](http://localhost:3000/).
 
 You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).
+
+## 自动化部署
