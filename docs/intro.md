@@ -2,7 +2,13 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+
+# 简介
+
+如果是md文档，默认会采用第一个标题作为目录名称
+
+sidebar_position: 1  设置目录顺序
+
 
 Let's discover **Docusaurus in less than 5 minutes**.
 
