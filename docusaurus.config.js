@@ -79,6 +79,9 @@ const config = {
           },
           {to: '/blog', label: '博客', position: 'left'},
           {
+            type: 'docsVersionDropdown',
+          },
+          {
             href: 'https://github.com/dongCode/docs-demos',
             label: 'GitHub',
             position: 'right',
