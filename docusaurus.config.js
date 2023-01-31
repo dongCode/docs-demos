@@ -31,6 +31,7 @@ const config = {
     defaultLocale: 'zh-Hans',
     locales: ['zh-Hans'],
   },
+  plugins: ['./plugins/react-native-elements-web.js'],
 
   presets: [
     [
@@ -41,6 +42,8 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
+          remarkPlugins: [require('./plugins/remark-snackplayer')],
+
           editUrl:
             'https://github.com/dongCode/docs-demos/tree/main',
         },
@@ -75,9 +78,10 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: '教程',
+            label: '文档',
           },
           {to: '/blog', label: '博客', position: 'left'},
+          // {to: '/components', label: '组件', position: 'left'},
           {
             type: 'docsVersionDropdown',
           },
